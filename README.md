@@ -6,6 +6,8 @@ Program running: https://youtu.be/jouUEvA9HM0
 ## How to run
 Download the data set for this project and unzip it. Move the resulting gtsrb directory inside of the traffic directory.
 
+
+[a link](https://cdn.cs50.net/ai/2020/x/projects/5/gtsrb.zip)
 ```
 pip3 install -r requirements.txt
 python traffic.py gtsrb
