@@ -6,6 +6,8 @@ Program running: https://youtu.be/jouUEvA9HM0
 ## How to run
 Download the [data](https://cdn.cs50.net/ai/2020/x/projects/5/gtsrb.zip) set for this project and unzip it. Move the resulting gtsrb directory inside of the traffic directory.
 
+AI to identify which traffic sign appears in a photograph.
+
 ```
 pip3 install -r requirements.txt
 python traffic.py gtsrb
@@ -33,7 +35,6 @@ Epoch 10/10
 
 ```
 
-AI to identify which traffic sign appears in a photograph.
 
 This project uses TensorFlow to build a neural network to classify road signs based on an image of those signs. To do so, it uses a labeled dataset: a collection of images that have already been categorized by the road sign represented in them.
 
